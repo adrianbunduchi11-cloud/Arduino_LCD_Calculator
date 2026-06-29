@@ -1,6 +1,6 @@
 #include<Wire.h>
 #include<LiquidCrystal_I2C.h>
-#define lcdAddress 0x27
+#define lcdAddress 0x27  //Run the Find_I2C_Address.ino program first and get the correct address of your display.
 LiquidCrystal_I2C lcd(lcdAddress,16,2);
 float nr1,nr2, rez;
 String op;  
